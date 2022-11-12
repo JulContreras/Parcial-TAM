@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#404040"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#404040"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#404040"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/name6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="172dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="Correo electronico"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <TextView
+        android:id="@+id/name5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="268dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="Carrera:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="236dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="Contraseña:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/btn_register2"
+        style="attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="144dp"
+
+        android:backgroundTint="@color/white"
+        android:text="Registrar"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="678dp" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="276dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="Usuario:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="416dp"
+        android:layout_height="74dp"
+        android:background="@drawable/banner_right"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="UDB Preview"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#404040"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#404040"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="276dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="Nombre:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <Button
+        android:id="@+id/btn_login2"
+        style="attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="128dp"
+        android:backgroundTint="@color/red"
+
+        android:text="Iniciar Sesión"
+
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="619dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
