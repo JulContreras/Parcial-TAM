@@ -4,31 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ComentsUsers">
+    tools:context=".FilterAdmin">
 
     <Button
-        android:id="@+id/btn_addComent"
+        android:id="@+id/BtnConsutar"
         style="attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="100dp"
-
-        android:layout_marginBottom="28dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="144dp"
 
         android:backgroundTint="@color/red"
-        android:text="Agregar Comentario"
+
+        android:text="Consultar"
         app:cornerRadius="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint="Escriba aquí"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#404040"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name7" />
 
     <TextView
-        android:id="@+id/title5"
+        android:id="@+id/name7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="112dp"
+        android:fontFamily="@font/arvo_bold"
+        android:text="Elija una carrera:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title4"
         android:layout_width="416dp"
         android:layout_height="74dp"
         android:background="@drawable/banner_right"
         android:backgroundTint="@color/red"
         android:fontFamily="@font/arvo_bold"
-        android:text="Nombre Docente"
+        android:text="Filtro por carrera"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -42,7 +70,7 @@
         />
 
     <ImageButton
-        android:id="@+id/btnSalir3"
+        android:id="@+id/btnSalir"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
@@ -52,4 +80,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logout_fill0_wght400_grad0_opsz48" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,22 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class AddComent extends AppCompatActivity {
+public class FilterAdmin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_coment);
+        setContentView(R.layout.activity_filter_admin);
 
         ImageButton Exit;
-        Exit = findViewById(R.id.btnSalir4);
+
+        Exit =findViewById(R.id.btnSalir);
 
         Exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(AddComent.this, MainActivity.class);
+                Intent intent = new Intent(FilterAdmin.this, MainActivity.class);
                 startActivity(intent);
             }
         });
+
     }
 }
