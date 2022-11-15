@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register">
+
     <EditText
         android:id="@+id/editTextTextPersonName11"
         android:layout_width="317dp"
         android:layout_height="49dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="45dp"
         android:ems="10"
         android:hint="Usuario"
         android:inputType="textPersonName"
@@ -17,13 +19,14 @@
         android:textColor="#000000"
         android:textColorHint="#404040"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="534dp" />
+        app:layout_constraintTop_toBottomOf="@+id/name6" />
 
     <EditText
         android:id="@+id/editTextTextPersonName10"
         android:layout_width="317dp"
         android:layout_height="49dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
         android:ems="10"
         android:hint="Usuario"
         android:inputType="textPersonName"
@@ -31,12 +34,13 @@
         android:textColor="#000000"
         android:textColorHint="#404040"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="425dp" />
+        app:layout_constraintTop_toBottomOf="@+id/name5" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
         android:layout_width="317dp"
         android:layout_height="49dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="44dp"
         android:ems="10"
         android:hint="Usuario"
@@ -45,68 +49,73 @@
         android:textColor="#000000"
         android:textColorHint="#404040"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="229dp" />
+        app:layout_constraintTop_toBottomOf="@+id/name3" />
 
     <TextView
         android:id="@+id/name6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="172dp"
-        android:fontFamily="@font/andika_new_basic_bold"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="164dp"
+        android:fontFamily="@font/arvo_bold"
         android:text="Correo electronico"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="488dp" />
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName10" />
 
     <TextView
         android:id="@+id/name5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="268dp"
-        android:fontFamily="@font/andika_new_basic_bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="272dp"
+        android:fontFamily="@font/arvo_bold"
         android:text="Carrera:"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="386dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
 
     <TextView
         android:id="@+id/name4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="236dp"
-        android:fontFamily="@font/andika_new_basic_bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="232dp"
+        android:fontFamily="@font/arvo_bold"
         android:text="Contraseña:"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="285dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
 
     <Button
         android:id="@+id/btn_register2"
         style="attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="144dp"
+        android:layout_marginTop="8dp"
 
+        android:layout_marginEnd="144dp"
         android:backgroundTint="@color/white"
         android:text="Registrar"
         android:textColor="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="678dp" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_login2" />
 
     <TextView
         android:id="@+id/name3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="276dp"
-        android:fontFamily="@font/andika_new_basic_bold"
+        android:fontFamily="@font/arvo_bold"
         android:text="Usuario:"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="190dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
 
     <TextView
         android:id="@+id/title2"
@@ -114,7 +123,7 @@
         android:layout_height="74dp"
         android:background="@drawable/banner_right"
         android:backgroundTint="@color/red"
-        android:fontFamily="@font/andika_new_basic_bold"
+        android:fontFamily="@font/arvo_bold"
         android:text="UDB Preview"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -132,54 +141,58 @@
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="317dp"
         android:layout_height="49dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="44dp"
         android:ems="10"
-        android:hint="Usuario"
+        android:hint="Nombre"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="#000000"
         android:textColorHint="#404040"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="129dp" />
+        app:layout_constraintTop_toBottomOf="@+id/name2" />
 
     <EditText
         android:id="@+id/editTextTextPersonName9"
         android:layout_width="317dp"
         android:layout_height="49dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
         android:ems="10"
-        android:hint="Usuario"
+        android:hint="Contraseña"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="#000000"
         android:textColorHint="#404040"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="329dp" />
+        app:layout_constraintTop_toBottomOf="@+id/name4" />
 
     <TextView
         android:id="@+id/name2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="276dp"
-        android:fontFamily="@font/andika_new_basic_bold"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="272dp"
+        android:fontFamily="@font/arvo_bold"
         android:text="Nombre:"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="89dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_login2"
         style="attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="128dp"
+
         android:backgroundTint="@color/red"
 
         android:text="Iniciar Sesión"
-
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="619dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
